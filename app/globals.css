@@ -73,67 +73,67 @@ html {
   }
 } */
 
-/* *=========== Purple theme =========== */
+/* *=========== BoorgerKirk theme =========== */
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 270 14.3% 4.1%;
+    --foreground: 215 22% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 270 14.3% 4.1%;
+    --card-foreground: 215 22% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 270 14.3% 4.1%;
+    --popover-foreground: 215 22% 12%;
 
-    --primary: 271 91% 65%;
-    --primary-foreground: 270 9.1% 97.8%;
+    --primary: 173 75% 38%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 4.8% 95.9%;
-    --secondary-foreground: 270 9.8% 10%;
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 215 22% 12%;
 
-    --muted: 270 4.8% 95.9%;
-    --muted-foreground: 270 5.3% 44.7%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 12% 42%;
 
-    --accent: 270 4.8% 95.9%;
-    --accent-foreground: 270 9.8% 10%;
+    --accent: 39 92% 94%;
+    --accent-foreground: 215 22% 12%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 270 9.1% 97.8%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 270 5.9% 90%;
-    --input: 270 5.9% 90%;
-    --ring: 271 91% 65%;
+    --border: 210 16% 88%;
+    --input: 210 16% 88%;
+    --ring: 173 75% 38%;
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 270 14.3% 4.1%;
-    --foreground: 270 9.1% 97.8%;
+    --background: 215 28% 8%;
+    --foreground: 210 20% 96%;
 
-    --card: 270 9.8% 8%;
+    --card: 215 24% 11%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 270 14.3% 4.1%;
-    --popover-foreground: 270 9.1% 97.8%;
+    --popover: 215 28% 8%;
+    --popover-foreground: 210 20% 96%;
 
-    --primary: 271 91% 60%;
-    --primary-foreground: 270 9.1% 97.8%;
+    --primary: 173 75% 42%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 6.5% 15.1%;
-    --secondary-foreground: 270 9.1% 97.8%;
+    --secondary: 215 20% 18%;
+    --secondary-foreground: 210 20% 96%;
 
-    --muted: 270 6.5% 15.1%;
-    --muted-foreground: 270 5.4% 63.9%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 210 12% 68%;
 
-    --accent: 270 6.5% 15.1%;
-    --accent-foreground: 270 9.1% 97.8%;
+    --accent: 39 82% 24%;
+    --accent-foreground: 39 92% 94%;
 
     --destructive: 0 72.2% 50.6%;
-    --destructive-foreground: 270 9.1% 97.8%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 270 6.5% 15.1%;
-    --input: 270 6.5% 15.1%;
-    --ring: 271 91% 60%;
+    --border: 215 20% 18%;
+    --input: 215 20% 18%;
+    --ring: 173 75% 42%;
   }
 }
 

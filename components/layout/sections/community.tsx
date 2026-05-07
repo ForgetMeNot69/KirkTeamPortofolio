@@ -1,4 +1,3 @@
-import DiscordIcon from "@/components/icons/discord-icon";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -7,35 +6,35 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { MessageSquareText } from "lucide-react";
 
 export const CommunitySection = () => {
   return (
-    <section id="community" className="py-12 ">
+    <section id="community" className="py-12">
       <hr className="border-secondary" />
       <div className="container py-20 sm:py-20">
         <div className="lg:w-[60%] mx-auto">
           <Card className="bg-background border-none shadow-none text-center flex flex-col items-center justify-center">
             <CardHeader>
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
-                <DiscordIcon />
+                <MessageSquareText className="mb-4 size-12 text-primary" />
                 <div>
-                  Ready to join this
-                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Community?
+                  Have a project for
+                  <span className="text-transparent pl-2 bg-gradient-to-r from-emerald-500 via-primary to-amber-400 bg-clip-text">
+                    BoorgerKirk?
                   </span>
                 </div>
               </CardTitle>
             </CardHeader>
             <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
-              Join our vibrant Discord community! Connect, share, and grow with
-              like-minded enthusiasts. Click to dive in! 🚀
+              Tell us what you want to build. We can help shape the idea into a
+              website, AI automation, machine learning prototype, or a complete
+              computer science project.
             </CardContent>
 
             <CardFooter>
               <Button asChild>
-                <a href="https://discord.com/" target="_blank">
-                  Join Discord
-                </a>
+                <a href="#contact">Contact the Team</a>
               </Button>
             </CardFooter>
           </Card>

@@ -17,26 +17,28 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Website Development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Responsive landing pages, portfolios, admin dashboards, and full-stack web apps built with modern frameworks.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "AI Automation",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
-  },
-  {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+      "Workflow bots, data extraction, document helpers, and AI-assisted tools that reduce repetitive work.",
     pro: 1,
+  },
+  {
+    title: "Machine Learning Prototypes",
+    description:
+      "Classification, prediction, recommendation, and computer vision experiments for coursework or product ideas.",
+    pro: 0,
+  },
+  {
+    title: "CS Project Support",
+    description:
+      "APIs, databases, algorithms, data visualization, and technical documentation for research-style builds.",
+    pro: 0,
   },
 ];
 
@@ -48,11 +50,11 @@ export const ServicesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+        What We Can Build
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+        BoorgerKirk mixes frontend craft, backend thinking, and practical AI
+        experiments to ship useful computer science projects.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
@@ -71,7 +73,7 @@ export const ServicesSection = () => {
               variant="secondary"
               className="absolute -top-2 -right-3 data-[pro=false]:hidden"
             >
-              PRO
+              Focus
             </Badge>
           </Card>
         ))}

@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Project-First Thinking",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "We start from the problem, then choose the stack, data model, interface, and automation flow that fit the project.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Useful Data Work",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "We can clean, visualize, and model data so dashboards and ML experiments explain what is happening.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Lean Delivery",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Small, clear milestones keep prototypes realistic, testable, and easier to present or extend later.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Creative Engineering",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "From AI assistants to interactive websites, we enjoy turning rough ideas into polished technical demos.",
   },
 ];
 
@@ -43,12 +43,12 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Built for Real Student Projects
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            We are a compact team, so each member can move across design,
+            implementation, testing, and presentation instead of staying boxed
+            into one narrow role.
           </p>
         </div>
 

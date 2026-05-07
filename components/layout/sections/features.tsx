@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Responsive Interfaces",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Pages and dashboards are designed to stay readable on phones, laptops, and presentation screens.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Readable Code",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "We keep components, API routes, and scripts organized so future changes are easier to understand.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Goal-Oriented Scope",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Every build is shaped around a demoable outcome: a working site, model, automation, or prototype.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Clear Visual Output",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Charts, UI states, and project screens are prepared for reports, showcases, and user testing.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Interactive Workflows",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Forms, filters, uploads, auth flows, and automation triggers are built as usable experiences.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Documentation Ready",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "We can prepare technical notes, setup steps, and project explanations alongside the implementation.",
   },
 ];
 
@@ -55,13 +55,12 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        How We Shape a Build
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        We keep the technical work practical: useful interfaces, measurable
+        behavior, readable code, and enough polish for a confident presentation.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

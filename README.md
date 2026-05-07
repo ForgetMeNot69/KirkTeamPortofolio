@@ -1,56 +1,32 @@
-# Shadcn Landing Page Template
+# BoorgerKirk Team Landing Page
 
-## <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+Team portfolio and service landing page for BoorgerKirk Team.
 
-### This is a project conversion <a href="https://github.com/leoMirandaa/shadcn-vue-landing-page" target="_blank">Shadcn-Vue</a> to NextJS
+## Team Members
 
-![Alt text](./public/demo-img.jpg)
+- Farriel Arrianta Akbar Pratama
+- Muhammad Hariz Faizul Anwar
+- Muhammad Eka Nur Arief
+- Nizam Avif Anhari
 
-## Sections
+## Services
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] Benefits
-- [x] Features
-- [x] Testimonials
-- [x] Team
-- [x] Community
-- [x] Contact
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Services
-- [x] Footer
+- Website development
+- AI automation
+- Machine learning prototypes
+- Data dashboards
+- Computer science project support
 
-## Features
+## Stack
 
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
 
-## How to install
-
-1. Clone this repositoy:
-
-```bash
-git clone https://github.com/nobruf/shadcn-landing-page.git
-```
-
-2. Go into project
-
-```bash
-cd shadcn-landing-page
-```
-
-3. Install dependencies
+## Run Locally
 
 ```bash
 npm install
-```
-
-4. Run project
-
-```bash
 npm run dev
 ```

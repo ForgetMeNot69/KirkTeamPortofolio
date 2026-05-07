@@ -13,32 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What is BoorgerKirk Team?",
+    answer:
+      "BoorgerKirk is a four-member team focused on websites, AI automation, machine learning prototypes, and computer science projects.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Can you build a full website?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Yes. We can build landing pages, portfolios, dashboards, and full-stack web apps depending on the project scope.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Do you work with AI and machine learning?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Yes. We can prototype AI-assisted workflows, automation tools, data analysis, and machine learning experiments.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Can the team help shape an unclear idea?",
+    answer:
+      "Yes. If the idea is still rough, we can help turn it into features, screens, data requirements, and a practical first milestone.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "How do we start a project?",
+    answer:
+      "Send a short message through the contact form with your idea, deadline, and expected output. We will use that to define the first version.",
     value: "item-5",
   },
 ];

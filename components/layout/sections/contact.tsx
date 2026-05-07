@@ -52,7 +52,7 @@ export const ContactSection = () => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
-    const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+    const mailToLink = `mailto:boorgerkirk.team@gmail.com?subject=${subject}&body=Hello BoorgerKirk Team, I am ${firstName} ${lastName}. My email is ${email}. %0D%0A${message}`;
 
     window.location.href = mailToLink;
   }
@@ -69,8 +69,8 @@ export const ContactSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur
+            Share the project type, deadline, and the output you expect. We
+            will help turn it into a realistic plan for the first version.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -80,7 +80,7 @@ export const ContactSection = () => {
                 <div className="font-bold">Find us</div>
               </div>
 
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+              <div>Indonesia / Remote collaboration</div>
             </div>
 
             <div>
@@ -89,27 +89,27 @@ export const ContactSection = () => {
                 <div className="font-bold">Call us</div>
               </div>
 
-              <div>+1 (619) 123-4567</div>
+              <div>Available on request</div>
             </div>
 
             <div>
               <div className="flex gap-2 mb-1">
                 <Mail />
-                <div className="font-bold">Mail US</div>
+                <div className="font-bold">Mail us</div>
               </div>
 
-              <div>leomirandadev@gmail.com</div>
+              <div>boorgerkirk.team@gmail.com</div>
             </div>
 
             <div>
               <div className="flex gap-2">
                 <Clock />
-                <div className="font-bold">Visit us</div>
+                <div className="font-bold">Availability</div>
               </div>
 
               <div>
-                <div>Monday - Friday</div>
-                <div>8AM - 4PM</div>
+                <div>Weekdays and project sprints</div>
+                <div>By appointment</div>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>First Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Leopoldo" {...field} />
+                          <Input placeholder="Your first name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -144,7 +144,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>Last Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Miranda" {...field} />
+                          <Input placeholder="Your last name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -162,7 +162,7 @@ export const ContactSection = () => {
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="leomirandadev@gmail.com"
+                            placeholder="you@example.com"
                             {...field}
                           />
                         </FormControl>
@@ -192,15 +192,17 @@ export const ContactSection = () => {
                             <SelectItem value="Web Development">
                               Web Development
                             </SelectItem>
-                            <SelectItem value="Mobile Development">
-                              Mobile Development
+                            <SelectItem value="AI Automation">
+                              AI Automation
                             </SelectItem>
-                            <SelectItem value="Figma Design">
-                              Figma Design
+                            <SelectItem value="Machine Learning">
+                              Machine Learning
                             </SelectItem>
-                            <SelectItem value="REST API">REST API</SelectItem>
-                            <SelectItem value="FullStack Project">
-                              FullStack Project
+                            <SelectItem value="Data Dashboard">
+                              Data Dashboard
+                            </SelectItem>
+                            <SelectItem value="Computer Science Project">
+                              Computer Science Project
                             </SelectItem>
                           </SelectContent>
                         </Select>

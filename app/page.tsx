@@ -12,30 +12,31 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  metadataBase: new URL("https://boorgerkirk.dev"),
+  title: "BoorgerKirk Team",
+  description:
+    "Team landing page for BoorgerKirk, a student team building websites, AI automation, machine learning, and computer science projects.",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://boorgerkirk.dev",
+    title: "BoorgerKirk Team",
+    description:
+      "Web development, AI automation, machine learning, and software prototypes by BoorgerKirk Team.",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "/hero-image-dark.jpeg",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "BoorgerKirk Team",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
-    images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-    ],
+    title: "BoorgerKirk Team",
+    description:
+      "Web development, AI automation, machine learning, and software prototypes by BoorgerKirk Team.",
+    images: ["/hero-image-dark.jpeg"],
   },
 };
 

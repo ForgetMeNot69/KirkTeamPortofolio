@@ -11,32 +11,32 @@ interface sponsorsProps {
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "Crown",
-    name: "Acmebrand",
+    icon: "Globe",
+    name: "Web Apps",
   },
   {
-    icon: "Vegan",
-    name: "Acmelogo",
+    icon: "Bot",
+    name: "AI Automation",
   },
   {
-    icon: "Ghost",
-    name: "Acmesponsor",
+    icon: "BrainCircuit",
+    name: "Machine Learning",
   },
   {
-    icon: "Puzzle",
-    name: "Acmeipsum",
+    icon: "Database",
+    name: "Databases",
   },
   {
-    icon: "Squirrel",
-    name: "Acme",
+    icon: "Code2",
+    name: "APIs",
   },
   {
-    icon: "Cookie",
-    name: "Accmee",
+    icon: "Server",
+    name: "Backend Systems",
   },
   {
-    icon: "Drama",
-    name: "Acmetech",
+    icon: "LineChart",
+    name: "Data Dashboards",
   },
 ];
 
@@ -44,7 +44,7 @@ export const SponsorsSection = () => {
   return (
     <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
       <h2 className="text-lg md:text-xl text-center mb-6">
-        Our Platinum Sponsors
+        Areas We Like to Work In
       </h2>
 
       <div className="mx-auto">
