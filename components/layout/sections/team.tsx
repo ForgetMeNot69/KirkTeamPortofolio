@@ -16,8 +16,8 @@ const teamList: TeamProps[] = [
   {
     name: "Farriel Arrianta Akbar Pratama",
     initials: "FA",
-    role: "Frontend and Interface Developer",
-    focus: "Turns project ideas into structured pages, reusable UI, and clear user flows.",
+    role: "Backend and Systems Developer",
+    focus: "Builds APIs, service logic, integrations, and the technical foundation behind each project.",
   },
   {
     name: "Muhammad Hariz Faizul Anwar",
@@ -34,8 +34,8 @@ const teamList: TeamProps[] = [
   {
     name: "Nizam Avif Anhari",
     initials: "NA",
-    role: "Backend and Systems Developer",
-    focus: "Builds APIs, service logic, integrations, and the technical foundation behind each project.",
+    role: "Frontend and Interface Developer",
+    focus: "Turns project ideas into structured pages, reusable UI, and clear user flows.",
   },
 ];
 

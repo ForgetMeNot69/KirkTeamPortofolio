@@ -22,21 +22,12 @@ export const metadata = {
     title: "BoorgerKirk Team",
     description:
       "Web development, AI automation, machine learning, and software prototypes by BoorgerKirk Team.",
-    images: [
-      {
-        url: "/hero-image-dark.jpeg",
-        width: 1200,
-        height: 630,
-        alt: "BoorgerKirk Team",
-      },
-    ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "BoorgerKirk Team",
     description:
       "Web development, AI automation, machine learning, and software prototypes by BoorgerKirk Team.",
-    images: ["/hero-image-dark.jpeg"],
   },
 };
 
